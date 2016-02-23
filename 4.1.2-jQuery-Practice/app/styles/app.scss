@@ -1,0 +1,39 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.accordion {
+  overflow:hidden;
+  background-color: #006666;
+  color: #f2f2f2;
+  display: inline-block;
+  font-family: helvetica;
+}
+
+img {
+  max-width: 100%;
+}
+
+.artist {
+  cursor: pointer;
+  list-style: none;
+
+}
+
+.song{
+  list-style: none;
+}
+
+.hide {
+  display: none;
+}
